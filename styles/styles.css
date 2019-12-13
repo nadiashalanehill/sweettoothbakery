@@ -1,0 +1,45 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+/* Creates black background */ 
+ul {
+  display:inline;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* lines the list elements up horizontally*/
+li {
+  float:left;
+  margin-left:10%;
+  
+}
+
+
+
+/*Creates padding around link*/
+li a {
+  display: inline;
+  color: pink;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+testimonials, body{
+  color: pink;
+  background-color: black;
+}
+body{
+font-family: 'Permanent Marker', cursive;
+}
